@@ -238,4 +238,25 @@ To assess the utility and practical usefulness of the BD3 dataset, we benchmarke
   
 
 ## Citation
-TODO...
+```bash
+@inproceedings{10.1145/3671127.3698789,
+author = {Kottari, Praveen and Arjunan, Pandarasamy},
+title = {BD3: Building Defects Detection Dataset for Benchmarking Computer Vision Techniques for Automated Defect Identification},
+year = {2024},
+isbn = {9798400707063},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3671127.3698789},
+doi = {10.1145/3671127.3698789},
+abstract = {The current manual visual inspection of built environments is time-consuming, labor-intensive, prone to errors, costly, and lacks scalability. To address these limitations, automated building inspection techniques have emerged in recent years, leveraging low-cost computer vision systems, drones and mobile robots. However, the practical implementation of these systems is hindered by the lack of robust and generalizable models trained on comprehensive defect image datasets. In this paper, we present BD3: Building Defects Detection Dataset, a comprehensive image dataset designed to benchmark computer vision techniques aimed at improving the robustness and generalizability of automated building inspection systems. The BD3 dataset contains 3,965 high-quality, manually collected, and annotated images. Unlike other datasets that primarily focus on crack and non-crack images, BD3 includes images of six distinct building defects (algae, major crack, minor crack, peeling, spalling, and stain), as well as images representing normal building conditions. We benchmarked the BD3 using five state-of-the-art computer vision models to classify defect and normal images. The experimental results indicate that the Vision Transformer (ViT) model achieved the highest F1-scores of 0.9342 and 0.9879 on the original and augmented datasets, respectively. The BD3 dataset and its accompanying reproducible codebase are publicly available for benchmarking other defect detection algorithms.},
+booktitle = {Proceedings of the 11th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+pages = {297–301},
+numpages = {5},
+keywords = {Building Defect Dataset, Building Defects, Building Inspection, Computer Vision, Deep Learning, Defect Identification},
+location = {Hangzhou, China},
+series = {BuildSys '24}
+}
+```
+
+
+
