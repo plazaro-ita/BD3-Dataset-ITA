@@ -9,7 +9,7 @@ import shutil
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 
-ROOT = "BD3-Dataset/curated-dataset"          # folders Algae/, Major Crack/, ...
+ROOT = "BD3-Dataset/data/curated-dataset"          # folders Algae/, Major Crack/, ...
 OUT  = "detectron2/datasets/coco_bd3_20250710"
 
 os.makedirs(OUT, exist_ok=True)
